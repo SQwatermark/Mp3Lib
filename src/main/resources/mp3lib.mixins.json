@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "moe.sqwatermark.mp3lib.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mp3lib.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinSoundBufferLibrary"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
